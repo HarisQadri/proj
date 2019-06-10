@@ -42,6 +42,7 @@ namespace userpanel.Controllers
 
         public ApplicationUserManager UserManager
         {
+            ////dfdfgdfgdfgdf
             get
             {
                 return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
